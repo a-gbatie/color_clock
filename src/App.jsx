@@ -17,7 +17,7 @@ function App() {
     <main>
       <h1>Color Clock</h1>
 
-      <p>{format(currentDate, "MMMM d, yyyy h:mm:ss a")}</p> //JSX syntax to display the formatted current date. Updated to format to include 'ss' to show the seconds ticking.
+      <p>{format(currentDate, "MMMM d, yyyy h:mm:ss a")}</p> {/* JSX syntax to display the formatted current date. Updated to format to include 'ss' to show the seconds ticking. */}
     </main>
   );
 }
